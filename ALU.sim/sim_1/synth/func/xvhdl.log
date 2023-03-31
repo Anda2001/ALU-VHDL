@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Faculta/IIIsem1/SCS/Lab/Lab4/ALU/ALU.srcs/sim_1/new/CLAdder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CLAdder_tb
+ERROR: [VRFC 10-1464] type std_logic does not match with a string literal [D:/Faculta/IIIsem1/SCS/Lab/Lab4/ALU/ALU.srcs/sim_1/new/CLAdder_tb.vhd:62]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [D:/Faculta/IIIsem1/SCS/Lab/Lab4/ALU/ALU.srcs/sim_1/new/CLAdder_tb.vhd:38]
+INFO: [VRFC 10-240] VHDL file D:/Faculta/IIIsem1/SCS/Lab/Lab4/ALU/ALU.srcs/sim_1/new/CLAdder_tb.vhd ignored due to errors

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1667988249">
+  <File Type="PWROPT-DRC" Name="WTree_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="WTree_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="WTree_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="WTree_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="WTree.tcl"/>
+  <File Type="OPT-HWDEF" Name="WTree.hwdef"/>
+  <File Type="RDI-RDI" Name="WTree.vdi"/>
+  <File Type="OPT-DCP" Name="WTree_opt.dcp"/>
+  <File Type="OPT-DRC" Name="WTree_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="WTree_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="WTree_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="WTree_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="WTree_placed.dcp"/>
+  <File Type="PLACE-IO" Name="WTree_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="WTree_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="WTree_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="WTree_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="WTree_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="WTree_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="WTree_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="WTree_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="WTree_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="WTree_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="WTree_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="WTree_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="WTree_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="WTree_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="WTree_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="WTree_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="WTree_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="WTree_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="WTree.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="WTree_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="WTree.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="WTree_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="WTree.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="WTree_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="WTree.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="WTree_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="WTree_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="WTree_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="WTree_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="WTree_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="WTree_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="WTree_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="WTree_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="WTree_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="WTree_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="WTree_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="WTree_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="WTree_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="WTree_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="WTree_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="WTree.bit"/>
+  <File Type="BITSTR-RBT" Name="WTree.rbt"/>
+  <File Type="BITSTR-NKY" Name="WTree.nky"/>
+  <File Type="BITSTR-BMM" Name="WTree_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="WTree.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="WTree.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FullAdder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/WTree.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CLAdder.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="WTree"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

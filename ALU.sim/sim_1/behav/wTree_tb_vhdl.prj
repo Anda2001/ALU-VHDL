@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../ALU.srcs/sources_1/new/FullAdder.vhd"
+vhdl xil_defaultlib  "../../../ALU.srcs/sources_1/new/WTree.vhd"
+vhdl xil_defaultlib  "../../../ALU.srcs/sim_1/new/wTree_tb.vhd"
+
+# Do not sort compile order
+nosort
